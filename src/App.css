@@ -8,7 +8,8 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -41,4 +42,42 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.contact {
+  background-image: url('../public/images/nightsky.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 40vh;
+}
+
+.contact-card {
+  max-width: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  box-shadow: 1px 1px 1px black;
+  background-color: #fafafa;
+}
+
+.contact-card .card-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-card .card-title {
+  padding-bottom: 20px;
+}
+
+.contact-card .img-fluid {
+  height: 100%;
+  padding-right: 10px;
+}
+
+.contact-card .submit-button {
+  background-color: #4682b4;
 }
