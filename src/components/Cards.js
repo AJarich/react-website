@@ -5,42 +5,36 @@ import './Cards.css';
 function Cards() {
     return (
         <div className="cards">
-          <h1>Check out these EPIC Destinations!</h1>
+          <h1>Check out these BEAUTIFUL photos!</h1>
           <div className="cards__container">
             <div className="cards__wrapper">
               <ul className="cards__items">
                 <CardItem
-                  src="images/img-9.jpg"
-                  text="Explore the hidden waterfall deep in the Amazon Jungle"
-                  label="Adventure"
-                  path="/services"
+                  src="images/orlando/castle.jpg"
+                  text="Dazzling Orlando during December of 2021"
+                  label="Orlando, FL"
+                  path="/orlando"
                 />
                 <CardItem
-                  src="images/img-2.jpg"
-                  text="Travel through the Islands of Bali in a Private Cruise"
-                  label="Luxury"
-                  path="/services"
+                  src="images/doorcounty.jpg"
+                  text="Beautiful Door County during the Summertime"
+                  label="Door County WI"
+                  path="/"
                 />
               </ul>
               <ul className="cards__items">
                 <CardItem
-                   src='images/img-3.jpg'
-                   text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                   label='Mystery'
-                   path='/services'
+                   src='images/forest.jpg.jpg'
+                   text='Life at home in my hometown of Burlington'
+                   label='Burlington, WI'
+                   path='/'
                  />
                  <CardItem
-                   src='images/img-4.jpg'
-                   text='Experience Football on Top of the Himilayan Mountains'
-                   label='Adventure'
-                   path='/services'
+                   src='images/mackinac.jpg'
+                   text='Experiencing a lovely summer in Mackinac Island'
+                   label='Mackinac Island, MI'
+                   path='/'
                  />
-                 <CardItem
-                   src='images/img-8.jpg'
-                   text='Ride through the Sahara Desert on a guided camel tour'
-                   label='Adrenaline'
-                   path='/services'
-           />
               </ul>
             </div>
           </div>
