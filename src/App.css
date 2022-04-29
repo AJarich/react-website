@@ -10,7 +10,8 @@
 .products,
 .sign-up,
 .contact,
-.about {
+.about,
+.photos {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -27,13 +28,14 @@
   font-size: 100px;
 }
 
-.products {
+.photos {
   background-image: url('../public/images/img-4.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  height: 40vh;
 }
 
 .sign-up {
@@ -105,6 +107,42 @@
 
 .contact-card .submit-button {
   background-color: #4682b4;
+}
+
+.orlando {
+  background-image: url('../public/images/orlando.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 40vh;
+  padding-top: 60px;
+}
+
+.orlando-img {
+  border: 3px solid black;
+  margin-bottom: 13px;
+}
+
+.wrapper {
+  max-width: 1350px;
+  padding: 0px 60px;
+  margin: 50px auto;
+  margin-left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper img {
+  cursor: pointer;
+}
+
+.gallery-figure {
+  width: 30rem;
 }
 
 @media screen and (max-width: 960px) {
