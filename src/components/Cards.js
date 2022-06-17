@@ -19,7 +19,7 @@ function Cards() {
                   src="images/doorcounty.jpg"
                   text="Beautiful Door County during the Summertime"
                   label="Door County WI"
-                  path="/"
+                  path=""
                 />
               </ul>
               <ul className="cards__items">
@@ -27,13 +27,13 @@ function Cards() {
                    src='images/forest.jpg.jpg'
                    text='Life at home in my hometown of Burlington'
                    label='Burlington, WI'
-                   path='/'
+                   path=''
                  />
                  <CardItem
                    src='images/mackinac.jpg'
                    text='Experiencing a lovely summer in Mackinac Island'
                    label='Mackinac Island, MI'
-                   path='/'
+                   path=''
                  />
               </ul>
             </div>
