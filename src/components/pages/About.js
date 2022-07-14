@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../App.css';
 
-export default function Products() {
+export default function About() {
   return (
     <>
     <h1 className='about'>ABOUT</h1>
     <div className="about-section">
-      <img src="/images/photographer.jpg" align="left" className="about-img" alt="Photographer" />
+      <img src="images/photographer.jpg" align="left" className="about-img" alt="Photographer" />
         <p><b>Name:</b> Andrea Jarich</p>
         <p><b>Birthdate:</b> 3/15/1993</p>
         <p><b>Hometown:</b> Burlington, WI, USA</p>

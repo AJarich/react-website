@@ -10,13 +10,13 @@ function Cards() {
             <div className="cards__wrapper">
               <ul className="cards__items">
                 <CardItem
-                  src="images/orlando/castle.jpg"
+                  src='images/castle.JPG'
                   text="Dazzling Orlando during December of 2021"
                   label="Orlando, FL"
                   path="/orlando"
                 />
                 <CardItem
-                  src="images/doorcounty.jpg"
+                  src='images/doorcounty.jpg'
                   text="Beautiful Door County during the Summertime"
                   label="Door County WI"
                   path=""

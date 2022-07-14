@@ -28,7 +28,7 @@ export default function Contact() {
       <div className="row g-0">
         <div className="col-md-4">
           <img
-            src="/images/midnight.jpg"
+            src="images/midnight.jpg"
             alt="Himalayas"
             className="img-fluid rounded-start"
           />
